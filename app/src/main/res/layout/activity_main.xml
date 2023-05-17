@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/countable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/count_label"
+        android:textSize="24dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/questionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:layout_marginTop="6dp"/>
+
+    <Button
+        android:id="@+id/answbttn1"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:onClick="CheckAnswer"
+        android:text="Choice" />
+
+    <Button
+        android:id="@+id/answbttn2"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:onClick="CheckAnswer"
+        android:text="Choice" />
+
+    <Button
+        android:id="@+id/answbttn3"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:onClick="CheckAnswer"
+        android:text="Choice" />
+
+    <Button
+        android:id="@+id/answbttn4"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:onClick="CheckAnswer"
+        android:text="Choice" />
+
+
+</LinearLayout>
